@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 40px 20px;
+  min-height: 100vh;
+}
+
+
+/* Semi-transparent glassy card */
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: rgba(0, 30, 10, 0.92);  /* translucent white background */
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(6px);
+  transition: all 0.3s ease-in-out;
+}
+
+h1 {
+  text-align: center;
+  color: #f0f4f6;
+  margin-bottom: 25px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  color: #f0f4f6;
+  font-weight: 500;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 6px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+input:focus, select:focus {
+  border-color: #ff3c00;
+  outline: none;
+}
+
+button {
+  margin-top: 25px;
+  padding: 12px;
+  width: 100%;
+  background-color: #4f7c52;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #f0f4f6;
+}
+
+/* ✅ Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 10px;
+  }
+
+  .container {
+    padding: 20px 15px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  input, select {
+    font-size: 14px;
+    padding: 9px 10px;
+  }
+
+  button {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  #result {
+    font-size: 17px;
+  }
+}
