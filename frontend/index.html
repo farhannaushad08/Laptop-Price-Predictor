@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Laptop Price Predictor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Laptop Price Predictor</h1>
+    <form id="predict-form">
+      <label>Brand:
+        <select id="company" required></select>
+      </label>
+      
+      <label>Type:
+        <select id="types" required></select>
+      </label>
+      
+      <label>RAM (GB):
+        <select id="ram" required></select>
+      </label>
+      
+      <label>Weight:
+        <input type="number" step="0.1" id="weight" required>
+      </label>
+      
+      <label>Touchscreen:
+        <select id="touchscreen">
+          <option>No</option>
+          <option>Yes</option>
+        </select>
+      </label>
+      
+      <label>IPS:
+        <select id="ips">
+          <option>No</option>
+          <option>Yes</option>
+        </select>
+      </label>
+      
+      <label>Screen Size:
+        <input type="number" step="0.1" id="screen_size" required>
+      </label>
+      
+      <label>Resolution:
+        <select id="resolution" required></select>
+      </label>
+      
+      <label>CPU:
+        <select id="cpu" required></select>
+      </label>
+      
+      <label>HDD (GB):
+        <select id="hdd" required></select>
+      </label>
+      
+      <label>SSD (GB):
+        <select id="ssd" required></select>
+      </label>
+      
+      <label>GPU:
+        <select id="gpu" required></select>
+      </label>
+      
+      <label>OS:
+        <select id="os" required></select>
+      </label>
+      
+      <button type="submit">Predict</button>
+    </form>
+    
+    <div id="result"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
