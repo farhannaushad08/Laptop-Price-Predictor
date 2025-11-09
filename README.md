@@ -1,11 +1,11 @@
 
-# 💻 Laptop Price Predictor
+# Laptop Price Predictor
 
 > An AI-powered laptop price prediction web app built using Machine Learning, FastAPI, and HTML/CSS/JS. Deployed fully on Render (backend) and Netlify (frontend).
 
 ---
 
-## 🔍 About the Project
+## About the Project
 
 **Laptop Price Predictor** is a complete end-to-end machine learning project that allows users to predict the price of a laptop based on its specifications like brand, processor, RAM, GPU, and screen features.
 
@@ -17,21 +17,21 @@ This project includes:
 
 ---
 
-## 🚀 Features at a Glance
+## Features at a Glance
 
 | Feature | Description |
 |--------|-------------|
-| 💡 **Model Training** | Random Forest Regressor trained on cleaned laptop dataset |
-| 📊 **Frontend UI** | HTML/CSS/JS responsive form with background image |
-| 🧠 **FastAPI Backend** | Predict prices using deployed `.pkl` model |
-| 🔄 **Dynamic Dropdowns** | Populated live from data using `/options` endpoint |
-| 🌐 **Full Deployment** | Frontend on Netlify, Backend on Render |
+| **Model Training** | Random Forest Regressor trained on cleaned laptop dataset |
+| **Frontend UI** | HTML/CSS/JS responsive form with background image |
+| **FastAPI Backend** | Predict prices using deployed `.pkl` model |
+| **Dynamic Dropdowns** | Populated live from data using `/options` endpoint |
+| **Full Deployment** | Frontend on Netlify, Backend on Render |
 
 ---
 
-## 🧠 ML Workflow – Jupyter Notebook Steps
+## ML Workflow – Jupyter Notebook Steps
 
-### 📓 Data Preprocessing & Model Training
+### Data Preprocessing & Model Training
 
 ```python
 import numpy as np
@@ -64,11 +64,11 @@ import pickle
 pickle.dump(pipeline, open('pipe.pkl', 'wb'))
 ```
 
-> 📁 Full notebook: [`laptop price prediction.ipynb`](./laptop%20price%20prediction.ipynb)
+> Full notebook: [`laptop price prediction.ipynb`](./laptop%20price%20prediction.ipynb)
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Laptop-Price-Predictor/
@@ -89,7 +89,7 @@ Laptop-Price-Predictor/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript (Vanilla)
 - **Backend:** FastAPI (Python)
@@ -98,7 +98,7 @@ Laptop-Price-Predictor/
 
 ---
 
-## 🧪 How to Run the Project Locally
+## How to Run the Project Locally
 
 ### 1. Clone the repository
 ```bash
@@ -121,12 +121,12 @@ Open index.html in your browser (or use Live Server)
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
-### ✅ Render (Backend)
+### Render (Backend)
 - Live URL: [https://laptop-price-predictor-1-37nu.onrender.com](https://laptop-price-predictor-1-37nu.onrender.com)
 
-### ✅ Netlify (Frontend)
+### Netlify (Frontend)
 - Live UI: [https://laptop-price-prediction-08.netlify.app](https://laptop-price-prediction-08.netlify.app)
 
 ---
